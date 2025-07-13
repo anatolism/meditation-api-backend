@@ -1,0 +1,136 @@
+2025-07-11 20:52:55,968 - INFO - Initialized model: gemini-2.5-flash-preview-04-17
+2025-07-11 20:52:55,973 - INFO - Loaded 49 phrases from phrase_list_with_audio.csv
+2025-07-11 20:53:57,527 - INFO - Initialized model: gemini-2.5-flash-preview-04-17
+2025-07-11 20:53:57,533 - INFO - Loaded 50 phrases from phrase_list_with_audio.csv
+2025-07-11 20:53:57,533 - INFO - Starting content generation with model gemini-2.5-flash-preview-04-17
+2025-07-11 20:53:57,533 - INFO - Input length: 1528 characters
+2025-07-11 20:54:04,549 - INFO - Generated content length: 77 characters
+2025-07-11 20:56:19,975 - ERROR - Error initializing Generative AI: 'gemini-2.5-pro'
+2025-07-11 20:56:48,739 - INFO - Initialized model: gemini-2.5-pro
+2025-07-11 20:56:48,744 - INFO - Loaded 50 phrases from phrase_list_with_audio.csv
+2025-07-11 20:56:48,745 - INFO - Starting content generation with model gemini-2.5-pro
+2025-07-11 20:56:48,745 - INFO - Input length: 1528 characters
+2025-07-11 20:57:14,054 - INFO - Generated content length: 56 characters
+2025-07-11 21:03:23,659 - INFO - Initialized model: gemini-2.5-pro
+2025-07-11 21:03:23,659 - INFO - Loaded 50 phrases from phrase_list_with_audio.csv
+2025-07-11 21:03:23,659 - INFO - Starting content generation with model gemini-2.5-pro
+2025-07-11 21:03:23,664 - INFO - Input length: 1528 characters
+2025-07-11 21:03:49,940 - INFO - Generated content length: 48 characters
+2025-07-11 21:06:07,624 - INFO - Initialized model: gemini-2.5-pro
+2025-07-11 21:06:07,633 - INFO - Loaded 50 phrases from phrase_list_with_audio.csv
+2025-07-11 21:06:07,634 - INFO - Starting content generation with model gemini-2.5-pro
+2025-07-11 21:06:07,634 - INFO - Input length: 1528 characters
+2025-07-11 21:06:32,413 - INFO - Generated content length: 56 characters
+2025-07-11 21:06:32,414 - INFO - Starting content generation with model gemini-2.5-pro
+2025-07-11 21:06:32,414 - INFO - Input length: 1528 characters
+2025-07-11 21:06:58,631 - INFO - Generated content length: 55 characters
+2025-07-11 21:09:20,894 - INFO - Initialized model: gemini-2.5-flash
+2025-07-11 21:09:20,900 - INFO - Loaded 49 phrases from phrase_list_with_audio.csv
+2025-07-11 21:11:13,934 - INFO - Initialized model: gemini-2.5-flash
+2025-07-11 21:11:13,942 - INFO - Loaded 49 phrases from phrase_list_with_audio.csv
+2025-07-11 21:11:13,942 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-11 21:11:13,944 - INFO - Input length: 622 characters
+2025-07-11 21:11:25,005 - INFO - Generated content length: 72 characters
+2025-07-11 21:13:01,667 - INFO - Initialized model: gemini-2.5-pro
+2025-07-11 21:13:01,674 - INFO - Loaded 49 phrases from phrase_list_with_audio.csv
+2025-07-11 21:13:01,677 - INFO - Starting content generation with model gemini-2.5-pro
+2025-07-11 21:13:01,692 - INFO - Input length: 622 characters
+2025-07-11 21:13:19,495 - INFO - Generated content length: 49 characters
+2025-07-12 13:26:24,262 - INFO - Initialized model: gemini-2.5-pro
+2025-07-12 13:28:59,157 - INFO - Creating introduction for breath_focus, 15 minutes
+2025-07-12 13:28:59,158 - INFO - Starting content generation with model gemini-2.5-pro
+2025-07-12 13:28:59,158 - INFO - Input length: 916 characters
+2025-07-12 13:29:16,252 - INFO - Generated content length: 226 characters
+2025-07-12 13:29:16,252 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 13:29:16,252 - INFO - AFC remote call 1 is done.
+2025-07-12 13:29:34,391 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 500 Internal Server Error"
+2025-07-12 13:29:34,391 - ERROR - Error creating introduction: 500 INTERNAL. {'error': {'code': 500, 'message': 'An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting', 'status': 'INTERNAL'}}
+2025-07-12 13:35:09,152 - INFO - Creating introduction for breath_focus, 15 minutes
+2025-07-12 13:35:09,153 - INFO - Starting content generation with model gemini-2.5-pro
+2025-07-12 13:35:09,153 - INFO - Input length: 916 characters
+2025-07-12 13:35:20,556 - INFO - Generated content length: 235 characters
+2025-07-12 13:35:20,567 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 13:35:20,567 - INFO - AFC remote call 1 is done.
+2025-07-12 13:37:37,927 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-07-12 13:37:38,392 - INFO - Generated introduction: 235 chars, 8918970 bytes audio
+2025-07-12 13:39:38,350 - ERROR - Error initializing Generative AI: 'gemgemini-2.5-flash'
+2025-07-12 13:39:46,150 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 13:41:50,427 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 13:41:52,664 - INFO - Creating introduction for breath_focus, 15 minutes
+2025-07-12 13:41:52,664 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-12 13:41:52,664 - INFO - Input length: 916 characters
+2025-07-12 13:41:56,894 - INFO - Generated content length: 262 characters
+2025-07-12 13:41:56,894 - INFO - Text generation took: 4.23 seconds
+2025-07-12 13:41:56,894 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 13:41:56,895 - INFO - AFC remote call 1 is done.
+2025-07-12 13:44:04,334 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-07-12 13:44:04,341 - ERROR - Error creating introduction: No audio data received
+2025-07-12 13:47:14,463 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 13:47:25,136 - INFO - Creating introduction for breath_focus, 15 minutes
+2025-07-12 13:47:25,139 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-12 13:47:25,140 - INFO - Input length: 916 characters
+2025-07-12 13:47:30,048 - INFO - Generated content length: 235 characters
+2025-07-12 13:47:30,050 - INFO - Text generation took: 4.91 seconds
+2025-07-12 13:47:30,050 - WARNING - Audio generation failed: 'MeditationVoiceService' object has no attribute 'generate_audio'
+2025-07-12 13:47:30,050 - INFO - Continuing without audio
+2025-07-12 13:47:30,050 - INFO - Total request took: 4.91 seconds
+2025-07-12 13:48:01,397 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 13:48:17,678 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 13:48:18,872 - INFO - Creating introduction for breath_focus, 15 minutes
+2025-07-12 13:48:18,872 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-12 13:48:18,872 - INFO - Input length: 916 characters
+2025-07-12 13:48:24,502 - INFO - Generated content length: 264 characters
+2025-07-12 13:48:24,502 - INFO - Text generation took: 5.63 seconds
+2025-07-12 13:48:24,502 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 13:48:24,510 - INFO - AFC remote call 1 is done.
+2025-07-12 13:49:12,736 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-07-12 13:49:12,736 - WARNING - Audio generation failed: 'MeditationVoiceService' object has no attribute '_create_silent_wav'
+2025-07-12 13:49:12,736 - INFO - Continuing without audio
+2025-07-12 13:49:12,736 - INFO - Total request took: 53.86 seconds
+2025-07-12 13:50:20,772 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 13:50:33,275 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 13:50:37,226 - INFO - Creating introduction for breath_focus, 15 minutes
+2025-07-12 13:50:37,226 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-12 13:50:37,226 - INFO - Input length: 916 characters
+2025-07-12 13:50:40,370 - INFO - Generated content length: 257 characters
+2025-07-12 13:50:40,370 - INFO - Text generation took: 3.14 seconds
+2025-07-12 13:50:40,370 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 13:50:40,381 - INFO - AFC remote call 1 is done.
+2025-07-12 13:50:57,581 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-07-12 13:50:57,845 - INFO - Audio generation took: 17.48 seconds
+2025-07-12 13:50:57,853 - INFO - Total request took: 20.63 seconds
+2025-07-12 15:01:11,576 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 15:03:17,828 - INFO - Creating introduction for breath_focus, 15 minutes
+2025-07-12 15:03:17,828 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-12 15:03:17,828 - INFO - Input length: 916 characters
+2025-07-12 15:03:22,226 - INFO - Generated content length: 242 characters
+2025-07-12 15:03:22,226 - INFO - Text generation took: 4.40 seconds
+2025-07-12 15:03:22,229 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 15:03:22,230 - INFO - AFC remote call 1 is done.
+2025-07-12 15:03:38,899 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-07-12 15:03:39,057 - INFO - Audio generation took: 16.83 seconds
+2025-07-12 15:03:39,076 - INFO - Total request took: 21.25 seconds
+2025-07-12 15:06:21,809 - INFO - Creating introduction for Body Scan, 10 minutes
+2025-07-12 15:06:21,809 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-12 15:06:21,817 - INFO - Input length: 913 characters
+2025-07-12 15:06:28,488 - INFO - Generated content length: 238 characters
+2025-07-12 15:06:28,489 - INFO - Text generation took: 6.68 seconds
+2025-07-12 15:06:28,493 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 15:06:28,494 - INFO - AFC remote call 1 is done.
+2025-07-12 15:06:45,697 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-07-12 15:06:45,978 - INFO - Audio generation took: 17.49 seconds
+2025-07-12 15:06:45,978 - INFO - Total request took: 24.17 seconds
+2025-07-12 16:32:09,706 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 16:56:54,977 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 18:22:24,700 - INFO - Initialized model: gemini-2.5-flash
+2025-07-12 18:27:25,915 - INFO - Creating introduction for Breath Focus, 10 minutes
+2025-07-12 18:27:25,925 - INFO - Starting content generation with model gemini-2.5-flash
+2025-07-12 18:27:25,925 - INFO - Input length: 863 characters
+2025-07-12 18:27:29,839 - INFO - Generated content length: 268 characters
+2025-07-12 18:27:29,839 - INFO - Text generation took: 3.91 seconds
+2025-07-12 18:27:29,844 - INFO - AFC is enabled with max remote calls: 10.
+2025-07-12 18:27:29,846 - INFO - AFC remote call 1 is done.
+2025-07-12 18:27:51,279 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+2025-07-12 18:27:51,482 - INFO - Audio generation took: 21.64 seconds
+2025-07-12 18:27:51,487 - INFO - Total request took: 25.57 seconds
+2025-07-12 18:48:28,522 - INFO - Initialized model: gemini-2.5-flash
