@@ -1,11 +1,9 @@
-# meditation_api/voice_service.py
-
 import os
 import base64
 import struct
 import tempfile
-from google import genai
-from google.genai import types
+import google.generativeai as genai  # Fixed this line
+from google.genai import types  # This might also need fixing
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,6 +11,8 @@ load_dotenv()
 class MeditationVoiceService:
     def __init__(self, preferred_voice="Aoede"):
         """Initialize voice service with preferred voice"""
+        # Fix this line too:
+        genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
         self.client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
         self.preferred_voice = preferred_voice
         # Use the EXACT instructions from your working test
