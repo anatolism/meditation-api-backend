@@ -13,7 +13,7 @@ from datetime import datetime
 import time 
 
 from GoogleApiCall import GoogleApiCall
-from voice_service import MeditationVoiceService
+# from voice_service import MeditationVoiceService  # COMMENTED OUT
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -32,7 +32,7 @@ app.add_middleware(
 
 # Initialize services
 google_ai = GoogleApiCall()
-voice_service = MeditationVoiceService(preferred_voice="aoede")
+# voice_service = MeditationVoiceService(preferred_voice="aoede")  # COMMENTED OUT
 
 # Pydantic models for request/response
 class CheckinData(BaseModel):
@@ -100,25 +100,26 @@ async def create_meditation_introduction(request: IntroductionRequest):
         
         # Try audio generation with fallback
         audio_url = ""
-        try:
-            audio_start = time.time()
-            audio_bytes = voice_service.generate_audio(introduction_text)
-            audio_duration = time.time() - audio_start
-            logger.info(f"Audio generation took: {audio_duration:.2f} seconds")
-            
-            # Save in session folder
-            audio_filename = "introduction.wav"
-            audio_path = f"{session_path}/{audio_filename}"
-            
-            with open(audio_path, "wb") as f:
-                f.write(audio_bytes)
-            
-            audio_url = f"/audio/sessions/{session_id}/{audio_filename}"
-            
-        except Exception as audio_error:
-            logger.warning(f"Audio generation failed: {audio_error}")
-            logger.info("Continuing without audio")
-            # Continue without audio
+        # VOICE SERVICE TEMPORARILY DISABLED
+        # try:
+        #     audio_start = time.time()
+        #     audio_bytes = voice_service.generate_audio(introduction_text)
+        #     audio_duration = time.time() - audio_start
+        #     logger.info(f"Audio generation took: {audio_duration:.2f} seconds")
+        #     
+        #     # Save in session folder
+        #     audio_filename = "introduction.wav"
+        #     audio_path = f"{session_path}/{audio_filename}"
+        #     
+        #     with open(audio_path, "wb") as f:
+        #         f.write(audio_bytes)
+        #     
+        #     audio_url = f"/audio/sessions/{session_id}/{audio_filename}"
+        #     
+        # except Exception as audio_error:
+        #     logger.warning(f"Audio generation failed: {audio_error}")
+        #     logger.info("Continuing without audio")
+        #     # Continue without audio
         
         total_duration = time.time() - start_time
         logger.info(f"Total request took: {total_duration:.2f} seconds")
@@ -225,7 +226,7 @@ async def health_check():
 @app.post("/api/test")
 async def test_endpoint():
     """Test endpoint to verify API is working"""
-    return {"message": "API is working!", "voice_service": "connected"}
+    return {"message": "API is working!", "voice_service": "disabled"}
 
 if __name__ == "__main__":
     import uvicorn
